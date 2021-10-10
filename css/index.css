@@ -1,0 +1,187 @@
+.background {
+	background-image: url("../images/earth_desktop.jpg");
+	background-color: #000000;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.indexheader {
+	color: #ffffff;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 3em;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.homebutton {
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+	color: #ffa500;
+}
+.aboutbutton {
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.peoplebutton {
+	position: absolute;
+	top: 90%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.locationbutton {
+	position: absolute;
+	top: 90%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+/* TABLET  */
+
+@media screen and (max-width: 1000px) {
+	.background {
+		background-image: url("../images/earth_desktop.jpg");
+		background-color: #000000;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.homebutton {
+		top: 93%;
+		left: 20%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+	.aboutbutton {
+		top: 93%;
+		left: 40%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	.peoplebutton {
+		top: 93%;
+		left: 60%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	.locationbutton {
+		top: 93%;
+		left: 80%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+}
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+	.background {
+		background-image: url("../images/earth_mobile.jpg");
+		background-color: #000000;
+	}
+
+	.homebutton {
+		position: absolute;
+		top: 90%;
+		left: 15%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.aboutbutton {
+		position: absolute;
+		top: 90%;
+		left: 38%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.peoplebutton {
+		position: absolute;
+		top: 90%;
+		left: 62%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.locationbutton {
+		position: absolute;
+		top: 90%;
+		left: 85%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="keywords"
+			content="The International Space Station, ISS, Space travel, Space, Austronaut, Location, Where is the National Space Station"
+		/>
+		<meta name="author" content="Hege Bjørkedal" />
+		<meta
+			name="description"
+			content="The International Space Station Microsite - Location of the ISS"
+		/>
+		<title>The location of the ISS</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/629d80b15b.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/location.css" />
+	</head>
+	<body>
+		<div class="background">
+			<!-- DESKTOP MENU -->
+			<div class="menu">
+				<a class="menuitem" href="index.html">ISS</a>
+				<a class="menuitem" href="about.html">About</a>
+				<a class="menuitem" href="people.html">People in space</a>
+				<a class="menuitem active" href="location.html">ISS Location</a>
+				<a class="menuitem floatright" href="contact.html">Contact us</a>
+			</div>
+			<!-- MOBILE MENU -->
+			<div class="mobilemenu">
+				<div class="fixedcontainer">
+					<button class="mobilemenubtn" id="menuBtn">
+						<i class="fas fa-bars fa-2x"></i>
+					</button>
+					<div class="dropdown" id="dropdownContent">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="people.html">People in space</a>
+						<a href="location.html">ISS location</a>
+						<a href="contact.html">Contact us</a>
+					</div>
+				</div>
+			</div>
+			<!-- CONTENT -->
+			<div class="pagecontainer">
+				<div class="spacediv">
+					<h1>ISS location</h1>
+				</div>
+				<div id="map"></div>
+				<p class="locationtext">
+					The International Space Station is moving at close to 28,000 km/h so
+					its location changes really fast. Refresh the page to see the current
+					location.
+				</p>
+			</div>
+			<a href="index.html">
+				<button class="homebutton">
+					<i class="fas fa-home fa-2x"></i>
+				</button>
+			</a>
+			<a href="about.html">
+				<button class="aboutbutton">
+					<i class="fas fa-question fa-2x"></i>
+				</button>
+			</a>
+			<a href="people.html">
+				<button class="peoplebutton">
+					<i class="fas fa-user-astronaut fa-2x"></i>
+				</button>
+			</a>
+			<a href="location.html">
+				<button class="locationbutton">
+					<i class="fas fa-map-marked fa-2x"></i>
+				</button>
+			</a>
+		</div>
+		<script defer src="js/location.js"></script>
+		<script
+			defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD9-C7UuO4c8nIC3EafmEsKg2uVSVPCXk&callback=initMap"
+		></script>
+		<script src="js/scripts.js"></script>
+		<footer>
+			<p>Hege Bjørkedal</p>
+			<p>Project Exam 1</p>
+			<p>2020</p>
+		</footer>
+	</body>
+</html>

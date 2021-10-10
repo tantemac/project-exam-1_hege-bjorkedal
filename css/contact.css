@@ -1,0 +1,240 @@
+.background {
+	background-image: url("../images/contact_desktop.jpg");
+	background-color: #000000;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.contactheader {
+	display: none;
+}
+
+.formcontainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(225, 225, 225, 0.9);
+	width: 80%;
+	max-width: 800px;
+	padding: 20px;
+}
+
+#contactForm {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+input {
+	display: block;
+	margin: 10px 0px;
+	padding: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
+
+textarea {
+	height: 40px;
+	display: block;
+	margin: 10px 0px;
+	padding: 5px;
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+}
+.error {
+	font-family: "Roboto", sans-serif;
+	color: red;
+	display: none;
+}
+
+.submitbtncontainer {
+	flex-wrap: wrap;
+}
+
+.submitbtn {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	padding: 10px;
+	font-family: "Roboto", sans-serif;
+	border: none;
+	margin-top: 10px;
+	display: block;
+}
+
+.submitbtn:hover {
+	background-color: #ffa500;
+	color: #000000;
+	outline: none;
+}
+
+/* BUTTONMENU */
+.homebutton {
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+	color: #ffa500;
+}
+.aboutbutton {
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.peoplebutton {
+	position: absolute;
+	top: 90%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.locationbutton {
+	position: absolute;
+	top: 90%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+@media screen and (max-width: 1000px) {
+	.background {
+		background-image: url("../images/contact_desktop.jpg");
+		background-color: #000000;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.homebutton {
+		top: 93%;
+		left: 20%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+	.aboutbutton {
+		top: 93%;
+		left: 40%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	.peoplebutton {
+		top: 93%;
+		left: 60%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	.locationbutton {
+		top: 93%;
+		left: 80%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+}
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+	.background {
+		background-image: url("../images/contact_mobile.jpg");
+		background-color: #000000;
+	}
+
+	form {
+		padding: 10px;
+	}
+
+	.homebutton {
+		position: absolute;
+		top: 90%;
+		left: 15%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.aboutbutton {
+		position: absolute;
+		top: 90%;
+		left: 38%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.peoplebutton {
+		position: absolute;
+		top: 90%;
+		left: 62%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+
+	.locationbutton {
+		position: absolute;
+		top: 90%;
+		left: 85%;
+		transform: translate(-50%, -50%);
+		width: 70px;
+		height: 70px;
+		border-radius: 50px;
+		border: none;
+		font-size: 1.2em;
+		text-align: center;
+		background-color: rgba(225, 225, 225, 0.9);
+	}
+}

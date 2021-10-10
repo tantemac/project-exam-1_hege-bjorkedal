@@ -1,0 +1,191 @@
+/* Fonts
+font-family: 'Roboto', sans-serif;
+300 - paragraph 
+500 - headings
+ */
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 1.6em;
+}
+
+h4 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+.menu {
+	position: fixed;
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 100%;
+}
+.menuitem {
+	padding: 10px 20px;
+	color: #ffffff;
+	border-radius: 5px;
+	border: none;
+	margin: 0px 10px;
+}
+
+.floatright {
+	float: right;
+	margin-right: 40px;
+}
+
+.menuitem:hover {
+	color: #ffa500;
+}
+
+.menuitem:active {
+	color: #ffffff;
+}
+
+.active {
+	color: #ffa500;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.mobilemenu {
+	display: none;
+}
+.buttondown {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #ffffff;
+}
+
+.buttondown:hover {
+	cursor: pointer;
+}
+
+.buttondown:active {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #ffffff;
+	border: none;
+	outline: none;
+}
+#secondcontainer {
+	padding-top: 100px;
+}
+
+.vertical-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.buttonup {
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #ffffff;
+}
+
+.buttonup:hover {
+	cursor: pointer;
+}
+
+.buttonup:active {
+	background-color: rgba(225, 225, 225, 0.9);
+	color: #000000;
+	border: none;
+	outline: none;
+}
+
+footer {
+	padding: 50px 10px 50px 10px;
+	text-align: center;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.7);
+	margin: 100px;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+	.menu {
+		display: none;
+	}
+
+	#secondcontainer {
+		padding-top: 70px;
+	}
+
+	.fixedcontainer {
+		position: fixed;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.7);
+		margin: 0;
+		padding: 15px 0px;
+	}
+	.mobilemenu {
+		display: block;
+		position: relative;
+		z-index: 200;
+	}
+	.mobilemenubtn {
+		background-color: rgba(225, 225, 225, 0.9);
+		color: #000000;
+		outline: none;
+		padding: 15px;
+		margin-left: 20px;
+		border-radius: 5px;
+	}
+
+	.dropdown {
+		display: none;
+	}
+
+	.dropdown a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: "Roboto", sans-serif;
+		font-size: 30px;
+		display: block;
+		padding: 15px;
+	}
+
+	.dropdown a:hover {
+		color: #ffa500;
+	}
+
+	.open {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		display: block;
+		text-align: center;
+	}
+}

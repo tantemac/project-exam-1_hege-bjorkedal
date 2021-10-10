@@ -1,0 +1,223 @@
+.background {
+	background-image: url("../images/austronaut_desktop.jpg");
+	background-color: #000000;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.pagecontainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: 80%;
+	max-width: 800px;
+	background-color: rgba(225, 225, 225, 0.8);
+	color: #000000;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	padding-top: 10px;
+	display: none;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.centerbox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+
+.peoplecontainer {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+span {
+	font-size: 3em;
+	display: block;
+	padding: 40px;
+}
+.homebutton {
+	position: absolute;
+	top: 90%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+.aboutbutton {
+	position: absolute;
+	top: 90%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+.peoplebutton {
+	position: absolute;
+	top: 90%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+	color: #ffa500;
+}
+
+.locationbutton {
+	position: absolute;
+	top: 90%;
+	left: 70%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border: none;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: rgba(225, 225, 225, 0.9);
+}
+
+#secondcontainer {
+	width: 80%;
+	margin: 0 auto;
+}
+.cardcontainer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.card {
+	display: inline-block;
+	background-color: rgba(245, 245, 245, 0.5);
+	padding: 30px 50px;
+	margin: 40px 40px;
+	width: 80%;
+	max-width: 250px;
+	border-radius: 5px;
+	box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.card p {
+	font-size: 1.2em;
+}
+/* TABLET */
+@media screen and (max-width: 1000px) {
+	.homebutton {
+		top: 93%;
+		left: 20%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+	.aboutbutton {
+		top: 93%;
+		left: 35%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+	.buttondown {
+		top: 93%;
+		left: 50%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+	.peoplebutton {
+		top: 93%;
+		left: 65%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	.locationbutton {
+		top: 93%;
+		left: 80%;
+		width: 70px;
+		height: 70px;
+		font-size: 1em;
+	}
+
+	#secondcontainer {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.cardcontainer {
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.card {
+		margin: 40px 0px;
+		width: 80%;
+		max-width: 250px;
+	}
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 800px) {
+	.background {
+		background-image: url("../images/austronaut_mobile.jpg");
+		background-color: #000000;
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+
+	.aboutbutton,
+	.peoplebutton,
+	.locationbutton,
+	.homebutton {
+		display: none;
+	}
+
+	#secondcontainer {
+		width: 80%;
+	}
+
+	h2 {
+		font-size: 1.3em;
+		text-align: center;
+		padding: 0px 20px;
+	}
+}
